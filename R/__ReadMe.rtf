@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 ##\
+## 	Simulation code for the manuscript \'ab\'a0Superinfection and the coevolution\
+## 	of parasite virulence and host recovery rate\'a0\'bb.\
+## 	Kada & Lion, 2015.\
+##\
+\
+### Fig 1 ####\
+- use source("supercoev-isoclines.R\'a0\'bb) \
+- re-run the simulations (about 40 minutes).\
+- plot in tikz format (better aspect ratio)\
+Note: R is far from being the best tool to calculate isoclines, I would advise to use Mathematica for this purpose (code available in Mathematica folder).\
+\
+### Fig 3, 4, 5, 6####\
+- open R\
+- For drawing figure 3, 4, 5, 6  and the figure 1A in the Annexe D, use the file supercoev > source("supercoev.R") as a source file. Warning: use R instead of Rstudio to run fig 4.\
+- either open the data file and plot the figure, \
+- or run the simulations and draw the figure as eps or tikz. The simulations run for 10 to 90 minutes.\
+\
+### Fig 7 ####\
+- use source("supercoev-superfunction.R") (only necessary for the eps output function)\
+- draw the figure by opening the csv file\
+OR\
+- re-run the simulations (less than 10 minutes).\
+- figure 7a was drown using the function written in the source file "supercoev-superfunction.R\'a0\'bb, with parameter used found in figure 7 legend.\
+\
+### Fig 8 ####\
+- use source("supercoev-facilitation.R")\
+- open cdv table and plot figure 8\
+OR\
+- re-run simulations (less than 20 minutes)\
+\
+Note that all the data that are used to draw the bistability zone are made under Mathematica, by counting the number of solution in parameter space. (see mathematica folder).\
+}

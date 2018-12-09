@@ -1,7 +1,7 @@
 rm(list=ls(all=TRUE)) # removes all stored characters
 cat("\014") # clear console
 
-source("supercoev-isoclines-gaut.R")
+source("supercoev-isoclines.R")
 
 kappa<-0.01
 betam<-10
